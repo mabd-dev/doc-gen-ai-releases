@@ -5,7 +5,7 @@
 set -e
 
 REPO="mabd-dev/doc-gen-ai-releases"
-BINARY_NAME="doc-gen-ai-releases"
+BINARY_NAME="doc-gen-ai"
 INSTALL_DIR="${INSTALL_DIR:-$HOME/.local/bin}"
 
 # Colors
