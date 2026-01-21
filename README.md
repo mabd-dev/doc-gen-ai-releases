@@ -47,6 +47,18 @@ Download the appropriate archive from the [releases page](https://github.com/mab
 doc-gen-ai --version
 ```
 
+## Checksums
+
+Each release includes a `checksums.txt` file with SHA256 hashes for verification:
+
+```bash
+# Download and verify
+curl -fsSLO https://github.com/mabd-dev/doc-gen-ai-releases/releases/latest/download/checksums.txt
+sha256sum -c checksums.txt --ignore-missing
+```
+
+***
+
 ## Why This Exists
 Documentation is critical for maintainable code, yet it's often the first thing to fall behind in fast-paced development. Manual documentation is time-consuming, inconsistent, and rarely reflects the actual behavior of the code. This tool bridges that gap.
 
@@ -159,16 +171,6 @@ Check [neovim plugin](https://github.com/mabd-dev/doc-gen-ai.nvim)
 2. **Generation Stage**: Generates initial KDoc based on the analysis and function signature
 3. **Polish Stage**: Refines the generated KDoc for clarity and consistency
 
-
-## Checksums
-
-Each release includes a `checksums.txt` file with SHA256 hashes for verification:
-
-```bash
-# Download and verify
-curl -fsSLO https://github.com/mabd-dev/doc-gen-ai-releases/releases/latest/download/checksums.txt
-sha256sum -c checksums.txt --ignore-missing
-```
 
 ## License
 
