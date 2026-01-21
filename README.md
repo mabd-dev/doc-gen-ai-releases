@@ -1,6 +1,6 @@
 # doc-gen-ai
 
-AI-powered documentation generator for Kotlin/Android development using local LLMs.
+AI-powered documentation generator for Kotlint using local/Remote LLMs.
 
 ## Installation
 
